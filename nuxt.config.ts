@@ -9,7 +9,4 @@ export default defineNuxtConfig({
   quasar: {
     /**/
   },
-  nitro: {
-    preset: 'node-server',
-  },
 });
