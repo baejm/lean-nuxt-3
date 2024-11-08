@@ -3,7 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "nuxi build",
+    "build": "nuxi build && vue-tsc --noEmit --skipLibCheck",
     "dev": "nuxi dev",
     "generate": "nuxi generate",
     "preview": "nuxi preview",
